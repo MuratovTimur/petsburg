@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-//потомство
+//информация о потомстве
 class Offspring extends Model
 {
     //
