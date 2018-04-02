@@ -1,0 +1,5 @@
+LOAD DATA LOCAL INFILE '/Users/itacademy/Documents/Developer/Project/laravel/pitsburg/database/import_exl/export_csv/lists/ram-Tаблица 1.csv'
+INTO TABLE breeds
+CHARACTER SET UTF8
+FIELDS TERMINATED BY ';'
+LINES TERMINATED BY '\r\n';
